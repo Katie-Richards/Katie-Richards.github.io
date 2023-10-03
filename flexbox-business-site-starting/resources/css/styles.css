@@ -1,0 +1,213 @@
+html {
+    font-family: 'Onest', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-image: url(../images/backing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+/*Nav bar and logo*/
+.nav-container {
+    background-color: rgb(119, 115, 115);
+    display: flex;
+    justify-content: space-between;
+    height: 3.125rem;
+    position: fixed;
+    width: 100%;
+    border-bottom: 0.0625rem solid white;
+}
+
+.logo {
+    font-family: 'Space Mono', monospace;
+    font-size: 2em;
+    font-weight: 400;
+    margin-left: 1.875rem;
+}
+
+.nav {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 1.875rem;
+}
+
+#list {
+    text-decoration: underline dotted white;
+    text-underline-offset: 0.1875rem;
+    color: white;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+#list:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: underline dotted black;
+    text-underline-offset: 0.1875rem;
+}
+
+#list:hover {
+    color: rgb(51, 0, 51);
+    text-decoration: underline double rgb(51, 0, 51);
+    text-underline-offset: 0.1875rem;
+    cursor: pointer;
+}
+
+
+/*Mission Statement*/
+.mission-statement-container {
+    background-image: url(../images/nebula-1-img_2000x1498.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+    margin-top: 5rem;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.title {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+    width: 30%;
+}
+
+.mission-statement {
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    width: 50%;
+}
+
+/*Services*/
+.services-title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.services {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.img {
+    width: 40%;
+    text-align: center;
+}
+
+.text {
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: rgba(119, 115, 115, 0.8);
+    line-height: 1.75;
+}
+
+/*Experts*/
+.experts-header {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.experts {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.profile {
+    width: 20%;
+}
+
+/*Contact*/
+.contact-header {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.socials-header {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.socials-icon {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+h5 {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 1024) {
+    .contact {
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+
+/*Footer*/
+.footer {
+    background-color: rgb(119, 115, 115);
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.0625rem solid white;
+}
+
+.footer-header {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024) {
+    .footer {
+        width: 100%;
+    }
+}
